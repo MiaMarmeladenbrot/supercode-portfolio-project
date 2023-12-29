@@ -1,3 +1,6 @@
+/* ! Design: https://www.figma.com/file/L07OQLSoCzQenr7cZ12l01/Portfolio?type=design&node-id=1-2&mode=design&t=2YPFqOQ1PBe7Z4dT-0 */
+
+/* ! Schriften */
 @font-face {
   font-family: Work Sans;
   src: url(../font/WorkSans-Regular.ttf);
@@ -18,7 +21,6 @@
   box-sizing: content-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid grey; */
 }
 
 img {
@@ -40,9 +42,8 @@ header h2 {
 
 /* Name */
 header h1 {
-  font-family: Didact Gothic;
+  font-family: Didact Gothic, Helvetica, serif;
   font-size: 100px;
-  width: 50vw;
   max-width: 720px;
   margin: 0 auto;
   margin-bottom: 3%;
@@ -55,7 +56,7 @@ header img {
 
 /* Work */
 header h3 {
-  font-family: Work Sans;
+  font-family: Work Sans, Arial, sans-serif;
   font-size: 160px;
   margin-bottom: 10%;
 }
@@ -113,7 +114,7 @@ header h3 {
 }
 
 .black h2 {
-  font-family: Didact Gothic, Arial, sans-serif;
+  font-family: Didact Gothic, Helvetica, serif;
   font-size: 112px;
   color: white;
   margin-left: 10vw;
@@ -130,7 +131,7 @@ header h3 {
 
 /* dive-in-Button */
 .black a {
-  font-family: Fjalla One;
+  font-family: Fjalla One, Arial, sans-serif;
   font-size: 16px;
   text-decoration: none;
   border: 1px solid white;
@@ -141,7 +142,7 @@ header h3 {
 }
 
 .black article p {
-  font-family: Fjalla One;
+  font-family: Fjalla One, Arial, sans-serif;
   font-size: 165px;
   color: #9e9e9e4d;
   position: absolute;
@@ -169,7 +170,7 @@ header h3 {
 }
 
 .white h2 {
-  font-family: Didact Gothic, Arial, sans-serif;
+  font-family: Didact Gothic, Helvetica, serif;
   font-size: 112px;
   color: black;
   margin-left: 10vw;
@@ -185,7 +186,7 @@ header h3 {
 }
 /* dive-in-Button */
 .white a {
-  font-family: Fjalla One;
+  font-family: Fjalla One, Arial, sans-serif;
   font-size: 16px;
   text-decoration: none;
   border: 1px solid black;
@@ -196,7 +197,7 @@ header h3 {
 }
 
 .white article p {
-  font-family: Fjalla One;
+  font-family: Fjalla One, Arial, sans-serif;
   font-size: 165px;
   color: #666666;
   position: absolute;
@@ -263,7 +264,7 @@ header h3 {
   margin-bottom: 10vh;
 }
 .socials a {
-  font-family: Didact Gothic, Arial, sans-serif;
+  font-family: Didact Gothic, Helvetica, serif;
   font-size: 160px;
   text-decoration: none;
   color: black;
@@ -276,7 +277,7 @@ header h3 {
   text-decoration: underline;
 }
 
-/* ! Herz-img */
+/* ! Herz-Animation */
 footer img {
   display: block;
   margin: 0 auto;
