@@ -1,0 +1,297 @@
+@font-face {
+  font-family: Work Sans;
+  src: url(../font/WorkSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Didact Gothic;
+  src: url(../font/DidactGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: Fjalla One;
+  src: url(../font/FjallaOne-Regular.ttf);
+}
+
+/* ! Allgemeine Angaben fürs gesamte Dokument */
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid grey; */
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ! header-Bereich */
+header {
+  text-align: center;
+}
+
+/* Super Portfolio of */
+header h2 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 3%;
+}
+
+/* Name */
+header h1 {
+  font-family: Didact Gothic;
+  font-size: 100px;
+  width: 50vw;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+/* Portfolio-Bild */
+header img {
+  margin-bottom: 5%;
+}
+
+/* Work */
+header h3 {
+  font-family: Work Sans;
+  font-size: 160px;
+  margin-bottom: 10%;
+}
+
+/* ! main-Bereich */
+/* ! Bilder für die einzelnen sections */
+/* Bild für orbis-Section */
+.orbis {
+  background: url(../img/portfolio2.png) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+/* Bild für rollr-Section */
+.rollr {
+  background: url(../img/portfolio3.png) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* Bild für galitos-section */
+.galitos {
+  background: url(../img/portfolio4.png) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+/* Bild für tretto-section */
+.tretto {
+  background: url(../img/portfolio5.png) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* ! schwarze sections */
+.black h3 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 20px;
+  color: #9e9e9e;
+  margin-left: 10vw;
+  margin-bottom: 2vw;
+  padding-top: 15vh;
+}
+
+.black h2 {
+  font-family: Didact Gothic, Arial, sans-serif;
+  font-size: 112px;
+  color: white;
+  margin-left: 10vw;
+  margin-bottom: 3vw;
+}
+
+.black p {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 20px;
+  color: #9e9e9e;
+  margin-left: 10vw;
+  margin-bottom: 6vw;
+}
+
+/* dive-in-Button */
+.black a {
+  font-family: Fjalla One;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  padding: 1vw 2vw;
+  margin-left: 10vw;
+  position: relative;
+}
+
+.black article p {
+  font-family: Fjalla One;
+  font-size: 165px;
+  color: #9e9e9e4d;
+  position: absolute;
+  top: 6vh;
+  right: -60vw;
+}
+
+.black article:hover a {
+  color: black;
+  background-color: white;
+}
+
+.black article:hover p {
+  color: white;
+}
+
+/* ! weiße sections */
+.white h3 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 20px;
+  color: #666666;
+  margin-left: 10vw;
+  margin-bottom: 2vw;
+  padding-top: 15vh;
+}
+
+.white h2 {
+  font-family: Didact Gothic, Arial, sans-serif;
+  font-size: 112px;
+  color: black;
+  margin-left: 10vw;
+  margin-bottom: 3vw;
+}
+
+.white p {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 20px;
+  color: #666666;
+  margin-left: 10vw;
+  margin-bottom: 6vw;
+}
+/* dive-in-Button */
+.white a {
+  font-family: Fjalla One;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding: 1vw 2vw;
+  margin-left: 10vw;
+  position: relative;
+}
+
+.white article p {
+  font-family: Fjalla One;
+  font-size: 165px;
+  color: #666666;
+  position: absolute;
+  top: 15vh;
+  right: -60vw;
+}
+
+.white article:hover a {
+  color: white;
+  background-color: black;
+}
+
+.white article:hover p {
+  color: black;
+}
+
+/* ! footer-Bereich */
+/* ! what-more-section */
+.more {
+  background-color: black;
+  background-attachment: fixed;
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+  padding-bottom: 10vh;
+}
+
+.more h2 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 180px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10vw;
+  padding-top: 12vh;
+}
+
+.more p {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 22px;
+  color: #666666;
+  line-height: 40px;
+  margin-left: 40vw;
+  margin-right: 10vw;
+  margin-bottom: 10vh;
+}
+
+.more a {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+  margin-left: 40vw;
+  margin-right: 10vw;
+}
+
+.more a:hover {
+  text-decoration: underline;
+}
+
+/* ! social channels */
+.socials {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.socials a {
+  font-family: Didact Gothic, Arial, sans-serif;
+  font-size: 160px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 5vw;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
+
+/* ! Herz-img */
+footer img {
+  display: block;
+  margin: 0 auto;
+  padding: 2vw;
+  animation-name: heart;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes heart {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 25px;
+  }
+}
